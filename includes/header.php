@@ -40,8 +40,8 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 					<img src="<?php echo $CLIENT_ROOT; ?>/images/layout/logo_symbiota.png" alt="Symbiota logo" width="100%">
 				</a>
 				<div class="brand-name">
-					<h1>Symbiota Brand New Portal</h1>
-					<h2>Redesigned by the Symbiota Support Hub</h2>
+					<h1>Blanding Four Corners Herbarium</h1>
+					<h2></h2>
 				</div>
 			</div>
 		</div>
@@ -59,7 +59,7 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 					</li>
 					<li>
 						<a href="<?php echo $CLIENT_ROOT; ?>/collections/index.php">
-							<?php echo (isset($LANG['H_COLLECTIONS'])?$LANG['H_COLLECTIONS']:'Collections'); ?>
+							<?php echo (isset($LANG['H_SEARCH'])?$LANG['H_SEARCH']:'Search'); ?>
 						</a>
 					</li>
 					<li>
