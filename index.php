@@ -39,8 +39,21 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 			//Default Language
 			?>
 			<div>
-				<h1>Welcome</h1>
-				<p>This data portal has been established to house the collections data for the Blanding / Four Corners Herbarium.</p>
+				<h1>Welcome to Four Corners Plants data portal!</h1>
+				<p>This site provides and synthesizes information on the botanical diversity of the Four Corners Region
+				specifically and including herbarium records from across the four corners states (UT, CO, NM, AR) more broadly.</p>
+
+				<p>A particular focus of this portal is on the Indigenous knowledge of these plants: In conjunction with the Four Corners Herbarium (FCORN), the
+				portal provides members of the Four Corners Region Indigenous communities with the opportunity to record culturally important information about
+				the traditional uses of plants, while retaining community control of that information.</p>
+
+				<p>The Four Corners Region is an area of epic landscapes centered on the junction of Utah, Colorado, Arizona, and New Mexico, approximately
+				corresponding to the watershed of the San Juan River. Boasting over 2350 plant taxa, and with habitats ranging from the high alpine peaks of the
+				San Juan Mountains to the iconic canyon “badlands”, this region is rich in plant life.</p>
+
+				<p>The region is home to ancestral Puebloan, Ute, Paiute, Shosone, and Athabaskan tribal communities, where some date back to 10,000 years ago.
+				The descendants of these historic tribal communities continue to inhabit the landscape today along with many new American settlers.</p>
+
 			</div>
 			<?php
 		}

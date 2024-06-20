@@ -10,7 +10,7 @@
 /* Variables
    ========================================================================== */
 :root {
-  --header-bg-image: url('../../../images/layout/arch_canyon_narrow.jpg');
+  --header-bg-image: url('../../../images/layout/PFCP_Header_Option1.png');
   --header-bg-color: #a2aaad76; /** Transparent color if adding header bg-image **/
   --header-font-color: #fff;
   --brand-font-size: 2rem;
