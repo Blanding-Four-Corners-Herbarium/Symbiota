@@ -37,7 +37,7 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 			</nav>
 			<div class="top-brand">
 				<div class="brand-name">
-					<h1>Blanding Four Corners Herbarium</h1>
+					<h1>Plants of the Four Corners</h1>
 					<h2></h2>
 				</div>
 			</div>

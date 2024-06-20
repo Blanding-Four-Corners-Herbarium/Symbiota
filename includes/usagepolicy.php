@@ -49,49 +49,34 @@ $serverHost = UtilityFunctions::getDomain();
 				else {
 					echo 'Name of people or institutional reponsible for maintaining the portal';
 				};
-				echo ' Portal, ' . $serverHost . $CLIENT_ROOT . ', ' . date('Y-m-d') . ').';
+				echo ', ' . $serverHost . $CLIENT_ROOT . ', ' . date('Y-m-d') . ').';
 			};
 			?>
 		</blockquote>
 
 		<h3>Usage of occurrence data from specific institutions</h3>
-		<p>Access each collection profile page to find the available citation formats.</p>
-		<h4>Example</h4>
-		<blockquote>
-			<?php
-			$collData['collectionname'] = 'Name of Institution or Collection';
-			$collData['dwcaurl'] = $serverHost . $CLIENT_ROOT . '/portal/content/dwca/NIC_DwC-A.zip';
-			if (file_exists($SERVER_ROOT . '/includes/citationcollection.php')) {
-				include($SERVER_ROOT . '/includes/citationcollection.php');
-			} else {
-				echo 'Name of Institution or Collection. Occurrence dataset ' . 'http://gh.local/Symbiota/portal/content/dwca/' . 'accessed via the' . 'Fresh Symbiota Install' . 'Portal, ' . 'http://gh.local/Symbiota' . ', 2022-07-25.';
-			}
-			?>
-		</blockquote>
+		<p>
+		Biodiversity occurrence data published by: <List of Collections> (Accessed through Four Corners Plants Portal, https://fourcornersplants.org//index.php, YYYY-MM-DD)
+		</p>
+		<h4>For example</h4>
+		<p>Biodiversity occurrence data published by: Intermountain Herbarium, Four Corners Herbarium, and Grand Canyon National Park (Accessed through Four Corners Plants Portal, https://fourcornersplants.org//index.php, 2024-05-17)
+		</p>
 
 		<h2>Occurrence Record Use Policy</h2>
-		<div>
-			<ul>
-				<li>
-					While <?php echo $DEFAULT_TITLE; ?> will make every effort possible to control and document the quality
-					of the data it publishes, the data are made available "as is". Any report of errors in the data should be
-					directed to the appropriate curators and/or collections managers.
-				</li>
-				<li>
-					<?php echo $DEFAULT_TITLE; ?> cannot assume responsibility for damages resulting from mis-use or
-					mis-interpretation of datasets or from errors or omissions that may exist in the data.
-				</li>
-				<li>
-					It is considered a matter of professional ethics to cite and acknowledge the work of other scientists that
-					has resulted in data used in subsequent research. We encourages users to
-					contact the original investigator responsible for the data that they are accessing.
-				</li>
-				<li>
-					<?php echo $DEFAULT_TITLE; ?> asks that users not redistribute data obtained from this site without permission for data owners.
-					However, links or references to this site may be freely posted.
-				</li>
-			</ul>
-		</div>
+		<p>While <?php echo $DEFAULT_TITLE; ?> will make every effort possible to control and document the quality
+		of the data it publishes, the data are made available "as is". Any report of errors in the data should be
+		directed to the appropriate curators and/or collections managers.
+		</p>
+		<p><?php echo $DEFAULT_TITLE; ?> cannot assume responsibility for damages resulting from mis-use or
+		mis-interpretation of datasets or from errors or omissions that may exist in the data.
+		</p>
+		<p>It is considered a matter of professional ethics to cite and acknowledge the work of other scientists that
+		has resulted in data used in subsequent research. We encourages users to
+		contact the original investigator responsible for the data that they are accessing.
+		</p>
+		<p><?php echo $DEFAULT_TITLE; ?> asks that users not redistribute data obtained from this site without permission for data owners.
+		However, links or references to this site may be freely posted.
+		</p>
 
 		<h2>Images</h2>
 		<p>Images within this website have been generously contributed by their owners to promote education and research. These contributors retain the full copyright for their images.
