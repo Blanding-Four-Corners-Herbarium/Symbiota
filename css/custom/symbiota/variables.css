@@ -10,13 +10,13 @@
 /* Variables
    ========================================================================== */
 :root {
-  --header-bg-image: url('../../../images/layout/PFCP_Header_Option1.png');
-  --header-bg-color: #a2aaad76; /** Transparent color if adding header bg-image **/
-  --header-font-color: #fff;
+  --header-bg-image: url('../../../images/layout/PFCP_Header_300h.png');
+  --header-bg-color: #ffffffff; /** Transparent color if adding header bg-image **/
+  --header-font-color: #000;
   --brand-font-size: 2rem;
   --title-font-family: 'Averia Serif Libre', serif;
   --logo-width: 120px;
-  --menu-top-bg-color: #0F2439;
+  --menu-top-bg-color: #98C247;
   --body-bg-color: #FFFFFF;
   --body-text-color: #000000;
   --body-font-size: 1.2rem;
