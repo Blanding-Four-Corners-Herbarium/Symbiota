@@ -278,5 +278,6 @@ ul.menu {
 @media screen and (min-width: 2560px) {
   .top-wrapper {
     padding: 0 20%;
+    background-position: calc(20% + 100px);
   }
 }
