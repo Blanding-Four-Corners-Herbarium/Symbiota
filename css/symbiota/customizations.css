@@ -3,3 +3,86 @@ Place your CSS customizations here.
 This stylesheet is defined last and will override all previously loaded sheets. You may reference variables defined in variables.css 
  */
  
+ html {
+    font-size: 10px; /* This is what 1 rem will be base off of */
+    height: 100%;
+  }
+
+  body {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  footer p {
+    font-size: 1.1rem;
+  }
+
+  .top-brand .brand-name {
+    margin-left: 180px;
+    padding-top: 45px;
+    display: block;
+  }
+
+  .brand-name #heading-top-row {
+    display: inline;
+  }
+
+
+  .top-brand #heading-top-row {
+    margin-left: 30px;
+    display: block;
+    font-weight: bold;
+    font-size: calc(var(--brand-font-size) * 1.5);
+  }
+
+  .top-brand h1 {
+    font-weight: normal;
+  }
+
+  .menu a {
+    font-size: 1.4rem;
+  }
+
+
+  @media (min-width: 768px) {
+    
+    .top-brand {
+        grid-area: brand;
+        justify-self: start;
+        padding-left: 3rem;
+    }
+
+    .top-brand #heading-top-row {
+        margin-left: 30px;
+        display: block;
+        font-weight: bold;
+        font-size: calc(var(--brand-font-size)* 1.5);
+    }
+
+    .top-wrapper {
+        background-color: var(--header-bg-color);
+        background-repeat: no-repeat;
+        background-image: var(--header-bg-image);
+        background-position: left;
+        background-size: contain;
+        display: grid;
+        grid-template-areas: 'brand login';
+        grid-template-columns: 3fr 1fr;
+        align-items: center;
+        min-width: 100%;
+        height: 200px;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+}
+
+@media screen and (min-width: 2560px) {
+    .top-wrapper {
+        padding: 0 20%;
+        background-position: calc(20% + 100px);
+    }
+}
