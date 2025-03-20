@@ -2,23 +2,6 @@
 Place your CSS customizations here.
 This stylesheet is defined last and will override all previously loaded sheets. You may reference variables defined in variables.css 
  */
- 
- html {
-    font-size: 10px; /* This is what 1 rem will be base off of */
-    height: 100%;
-  }
-
-  body {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 1.4rem;
-  }
-
-  footer p {
-    font-size: 1.1rem;
-  }
 
   .top-brand .brand-name {
     margin-left: 180px;
@@ -41,11 +24,6 @@ This stylesheet is defined last and will override all previously loaded sheets. 
   .top-brand h1 {
     font-weight: normal;
   }
-
-  .menu a {
-    font-size: 1.4rem;
-  }
-
 
   @media (min-width: 768px) {
     
