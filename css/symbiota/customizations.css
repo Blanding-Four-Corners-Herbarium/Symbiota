@@ -18,7 +18,7 @@ This stylesheet is defined last and will override all previously loaded sheets. 
     margin-left: 30px;
     display: block;
     font-weight: bold;
-    font-size: calc(var(--brand-font-size) * 1.5);
+    font-size: calc(var(--brand-font-size) * 1.25);
   }
 
   .top-brand h1 {
@@ -37,7 +37,7 @@ This stylesheet is defined last and will override all previously loaded sheets. 
         margin-left: 30px;
         display: block;
         font-weight: bold;
-        font-size: calc(var(--brand-font-size)* 1.5);
+        font-size: calc(var(--brand-font-size)* 1.25);
     }
 
     .top-wrapper {
