@@ -49,6 +49,17 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 						</a>
 					</li>
 					<li>
+						<a href="#"><?= $LANG['H_SEARCH'] ?></a>
+						<ul>
+							<li>
+								<a href="<?php echo $CLIENT_ROOT; ?>/collections/index.php">Search Collections</a>
+							</li>
+							<li>
+								<a href="<?php echo $CLIENT_ROOT; ?>/taxa/taxonomy/taxonomydynamicdisplay.php">Search Taxonomy</a>
+							</li>
+						</ul>
+					</li>
+					<li>
 						<a href="<?php echo $CLIENT_ROOT; ?>/collections/index.php">
 							<?php echo (isset($LANG['H_SEARCH'])?$LANG['H_SEARCH']:'Search'); ?>
 						</a>
