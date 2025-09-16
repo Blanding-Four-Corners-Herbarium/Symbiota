@@ -42,7 +42,7 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 			<div>
 				<h1>Welcome to Four Corners Plants data portal!</h1>
 				<p>This site provides and synthesizes information on the botanical diversity of the Four Corners Region
-				specifically and including herbarium records from across the four corners states (UT, CO, NM, AR) more broadly.</p>
+				specifically and including herbarium records from across the four corners states (UT, CO, NM, AZ) more broadly.</p>
 
 				<p>A particular focus of this portal is on the Indigenous knowledge of these plants: In conjunction with the Four Corners Herbarium (FCORN), the
 				portal provides members of the Four Corners Region Indigenous communities with the opportunity to record culturally important information about
